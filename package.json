@@ -2,6 +2,7 @@
   "name": "angular-seo-poc",
   "version": "1.0.0",
   "scripts": {
+    "install": "npm run build:server:prod && npm run build:browser:prod",
     "ng": "ng",
     "start": "node index.js",
     "start:prod": "ng build --prod && node index.js",
